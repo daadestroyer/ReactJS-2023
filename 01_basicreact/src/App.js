@@ -1,7 +1,13 @@
+import Chai from "./chai"
+import Coffee from "./coffee" 
 
 function App() {
   return (
-    <h1>TheCoders TV</h1>
+   <>
+     <Chai/>
+     <h1>TheCoders TV</h1>
+     <Coffee/>
+   </>
   );
 }
 
