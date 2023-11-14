@@ -28,10 +28,11 @@ function App() {
 
       <Navbar   mode={darkMode}toggleMode={toggleMode}darkModeText={darkModeText}/>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/contacts" element={<Contact />} />
-        <Route path="/about" element={<About />} />
+      {/* using exact for exact matching of the url */}
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/services" element={<Services />} />
+        <Route exact path="/contacts" element={<Contact />} />
+        <Route exact path="/about" element={<About />} />
       </Routes>
   
       </BrowserRouter>
