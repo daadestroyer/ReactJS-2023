@@ -22,14 +22,14 @@ npm install react-router-dom
 
 
 #### 6. Mini project (Course Application)
-    Home Page 
+Home Page 
 <img width="1440" alt="image" src="https://github.com/daadestroyer/ReactJS-2023/assets/48306820/ef705e11-b07c-4f84-8fcd-819acd576c2f">
-
-    Add Course 
+<br><br>
+Add Course 
 <img width="1440" alt="image" src="https://github.com/daadestroyer/ReactJS-2023/assets/48306820/9fba44bf-da11-42a8-b39c-34ea8b3e73bd">
-
-    View All Course 
+<br><br>
+View All Course 
 <img width="1440" alt="image" src="https://github.com/daadestroyer/ReactJS-2023/assets/48306820/b188c042-8a92-42ed-8c09-1163e1d85daa">
-
-    Contact Us
+<br><br>
+Contact Us
 <img width="1440" alt="image" src="https://github.com/daadestroyer/ReactJS-2023/assets/48306820/6dca96ef-f4ec-4404-a045-cdfe9ea3d313">
