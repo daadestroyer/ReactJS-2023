@@ -19,3 +19,8 @@ npm install react-router-dom
 #### 4. React Router <a href="https://github.com/daadestroyer/ReactJS-2023/tree/main/04_routers">Link</a>
 
 #### 5. Restraunt App <a href="https://github.com/daadestroyer/ReactJS-2023/tree/main/05_restraunt_app">Link</a>
+
+
+#### 6. Mini project (Course Application)
+#### Home Page 
+![Alt text](image.png)
