@@ -22,5 +22,14 @@ npm install react-router-dom
 
 
 #### 6. Mini project (Course Application)
-#### Home Page 
+    Home Page 
 ![Alt text](image.png)
+
+    Add Course 
+![Alt text](image-1.png)
+
+    View All Course 
+![Alt text](image-2.png)
+
+    Contact Us
+![Alt text](image-3.png)
