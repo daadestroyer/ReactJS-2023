@@ -1,22 +1,30 @@
 import React from 'react'
 import './style.css'
 export default function useState() {
+  // const initialData = 15;
+  const [myNum, setMyNum] = React.useState(0);
+
   return (
-   <>
-    <div className="center-div">    
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        Click Me
-    </div>
-    <div class="button2">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        Say Hi
-    </div>
-   </>
-  )
-}
+    <>
+      <div className="center_div">
+        <p>{myNum}</p>
+        <div class="button2" onClick={() => setMyNum(myNum + 1)}>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          INCR
+        </div>
+        <div
+          class="button2"
+          onClick={() => (myNum > 0 ? setMyNum(myNum - 1) : setMyNum(0))}>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          DECR
+        </div>
+      </div>
+    </>
+  );
+};
